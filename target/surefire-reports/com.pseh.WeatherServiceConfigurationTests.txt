@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.pseh.WeatherServiceConfigurationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.092 s <<< FAILURE! - in com.pseh.WeatherServiceConfigurationTests
+testWeather_serviceAvailable(com.pseh.WeatherServiceConfigurationTests)  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<400>
+	at com.pseh.WeatherServiceConfigurationTests.testWeather_serviceAvailable(WeatherServiceConfigurationTests.java:47)
+

@@ -39,7 +39,7 @@ pipeline{
                sourceFiles: "",
                removePrefix: "",
                remoteDirectory: "",
-               execCommand: "sudo docker stop weather-services;sudo docker rm weather-services"
+               execCommand: "sudo docker stop weather-services || true;sudo docker rm weather-services || true"
               )
              ])
            ])
